@@ -1,8 +1,4 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import path from 'node:path';
-import fs from 'node:fs'
-import { fromEvent } from 'rxjs';
-import { filter, share, map, takeUntil } from 'rxjs/operators';
 
 @Component({
   selector: 'app-directory',
