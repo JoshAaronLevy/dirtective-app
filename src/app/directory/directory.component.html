@@ -1,0 +1,4 @@
+<div class="folder-upload">
+  <input type="file" webkitdirectory (change)="onFolderSelected($event)" #folderInput>
+  <p-button label="Submit" [loading]="loading" (click)="folderInput.click()"></p-button>
+</div>
